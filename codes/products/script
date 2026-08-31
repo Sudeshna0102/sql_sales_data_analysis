@@ -1,6 +1,6 @@
 /*
 ======================================
-Customer Report
+Product Report
 ======================================
 Purpose: This report consolidates key product metrics and behaviour
 
@@ -89,4 +89,4 @@ Span
 FROM cte_product_aggregation
 )
 SELECT*
-FROM cte_partiontion
+FROM Gold.report_view_product
